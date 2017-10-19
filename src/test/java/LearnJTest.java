@@ -71,7 +71,8 @@ public class LearnJTest {
         webSite.searchResultPage().openBookPageBy("Java EE 6 Pocket Guide");
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("h1[itemprop='name']")));
-      /*  Assert.assertTrue(webDriver.findElement());*/
+      /*  Assert.assertTrue(webDriver.findElement());
+      * */
 
     }
 
